@@ -1,1 +1,12 @@
-# oops-with-python
+class Student:
+    name = "kprit"
+    age = 15
+    def read(self):
+        print("READIND")
+    def write(self):
+        print("WRITING")
+S1=Student
+print(S1.name)
+print(S1.age)
+S1.read()
+S2.write()
